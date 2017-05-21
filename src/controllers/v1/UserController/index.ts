@@ -1,13 +1,13 @@
 import jwt from 'jsonwebtoken';
 import * as bodyparser from 'body-parser';
 
-import models from '../models';
+import models from '../../../models';
 
 export const userLogin = (req,res) => {
-        console.log("hello");
+    console.log("hello");
 
-        res.send('Hello World!222')
-        return res
+    res.send('Hello World!222')
+    return res
 }
 
 export const userGet = (req,res) => {
